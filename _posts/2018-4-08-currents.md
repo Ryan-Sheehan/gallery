@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Currents Sweet & Sour Edition"
-description: ""
+description: "Tufts Art Magazine"
 tags: [photography]
 ---
 
