@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Lewkk x Mondrian"
-description: "Medium of Fashion, Spring 2018"
+description: "Crafts Center 2018"
 tags: [photography]
 ---
 
-Painted a Mondrian on an old jean jacket for my fashion class and there was a primary colored playground next to my dorm so you know we had to do it to em.
+Painted a Mondrian on an old jean jacket for my fashion class and there was a primary colored playground next to my dorm so you know we had to take advantage.
 
 {% include image.html path="primary-playground/0003.jpg" path-detail="primary-playground/0003.jpg" alt="" %}
 
