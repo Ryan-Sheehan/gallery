@@ -11,8 +11,6 @@ tags: [graphic design, photoshop]
 
 {% include image.html path="poster-every-day/simon.png" path-detail="poster-every-day/simon.png" alt="" %}
 
-{% include image.html path="poster-every-day/tina_4.png" path-detail="poster-every-day/tina_4.png"" alt="" %}
-
-{% include image.html path="poster-every-day/amari.png" path-detail="poster-every-day/amari.png" alt="" %}
+{% include image.html path="poster-every-day/tina_4.png" path-detail="poster-every-day/tina_4.png" alt="" %}
 
 {% include image.html path="poster-every-day/there_is_no_cloud.png" path-detail="poster-every-day/there_is_no_cloud.png" alt="" %}
