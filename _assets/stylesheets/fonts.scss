@@ -11,9 +11,13 @@
   font-family: 'Archivo Black';
   font-style: normal;
   font-weight: 400;
-  src:
-    local('Archivo Black Regular'),
-    asset_url('archivo-black/Archivo-Black-Regular.ttf') format('truetype');
+  src: url('archivo-black-v7/archivo-black-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'),
+       url('archivo-black-v7/archivo-black-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('archivo-black-v7/archivo-black-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('archivo-black-v7/archivo-black-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('archivo-black-v7/archivo-black-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('archivo-black-v7/archivo-black-v7-latin-regular.svg#ArchivoBlack') format('svg'); /* Legacy iOS */
 }
 
 // Cormorant Garamond
