@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lewkk x Mondrian"
-description: "Medium of Fashion, Spring 2018"
+description: "The fruits of crafts center"
 tags: [photography]
 ---
 
