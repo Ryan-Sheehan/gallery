@@ -4,6 +4,18 @@
 
 @charset "UTF-8";
 
+// Archivo Black
+// =============================================================================
+
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Archivo Black Regular'),
+    asset_url('archivo-black/Archivo-Black-Regular.ttf') format('truetype');
+}
+
 // Cormorant Garamond
 // =============================================================================
 
