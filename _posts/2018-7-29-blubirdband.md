@@ -13,17 +13,17 @@ The main navigation tool for the desktop version of the site is this big svg rib
 
 Since I knew the ribbon wasn't going to work as well for mobile, I opted for a more simplistic menu button. However, I still wanted something unique for the landing page so I tried implementing a kind of hacksaw version of a feature that had really stood out to me earlier on [Warby Parker's](https://www.warbyparker.com/) mobile store. When looking at a pair of glasses, if the user tilts their phone, the model's head will tilt accordingly so that different perspectives of the glasses are available. But since I didn't have any glasses to show off, I instead used a character from Blubird's lore, Gooseman to attempt this:
 
- {% include image.html path="blubird/010.MP4" path-detail="blubird/010.MP4" alt="" %}
+{% include image.html path="blubird/010.MP4" path-detail="blubird/010.MP4" alt="" %}
 
- Not the prettiest but it'll do the trick.
+Not the prettiest but it'll do the trick.
 
- Another idea I had for the mobile landing page was include a TV interface. At the last Blubird show I went to they had a big projection going on behind them that was playing a supercut of [Binging with Babish](https://www.youtube.com/channel/UCJHA_jMfCvEnv-3kRjTCQXw) while they did their set and I wanted that to somehow make an appearance on the site. What I came up with ended up being to resource intensive to actually be feasible on a mobile connection but you can still check it out [here](http://blubirdband.com/testing/). The bigger knob changes the channel between gifs featuring an old, banned animatic, a snippet from their [latest music video](https://www.youtube.com/watch?v=AJ23Bs29neI), and, of course, Babish. The smaller knob handles other features like turning the TV off, and initiating custom SVG animations.
+Another idea I had for the mobile landing page was include a TV interface. At the last Blubird show I went to they had a big projection going on behind them that was playing a supercut of [Binging with Babish](https://www.youtube.com/channel/UCJHA_jMfCvEnv-3kRjTCQXw) while they did their set and I wanted that to somehow make an appearance on the site. What I came up with ended up being to resource intensive to actually be feasible on a mobile connection but you can still check it out [here](http://blubirdband.com/testing/). The bigger knob changes the channel between gifs featuring an old, banned animatic, a snippet from their [latest music video](https://www.youtube.com/watch?v=AJ23Bs29neI), and, of course, Babish. The smaller knob handles other features like turning the TV off, and initiating custom SVG animations.
 
- {% include image.html path="blubird/002.png" path-detail="blubird/002.png" alt="" %}
+{% include image.html path="blubird/002.png" path-detail="blubird/002.png" alt="" %}
 
- After doing this I just had to come up with some interface for the actual store section that would sell the merch. I wanted it to feel kind of low tech because this is an indie band and seeing as the music itself isn't highly refined, I didn't want the website to look like it had just come fresh off of Squarespace. 
+After doing this I just had to come up with some interface for the actual store section that would sell the merch. I wanted it to feel kind of low tech because this is an indie band and seeing as the music itself isn't highly refined, I didn't want the website to look like it had just come fresh off of Squarespace. 
 
- What I ended up with is this simple flexbox layout featuring Gameboy Colors as the containers for the merch overlayed across an interactive SVG background to keep the ribbon/squiggle motif present.
+What I ended up with is this simple flexbox layout featuring Gameboy Colors as the containers for the merch overlayed across an interactive SVG background to keep the ribbon/squiggle motif present.
 
 {% include image.html path="blubird/004.png" path-detail="blubird/004.png" alt="" %}
 
