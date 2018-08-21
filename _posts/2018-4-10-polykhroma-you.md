@@ -2,7 +2,7 @@
 layout: post
 title: "Polykhroma: You"
 description: "A private concert"
-tags: [web design, animation, music]
+tags: [c++, music]
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
