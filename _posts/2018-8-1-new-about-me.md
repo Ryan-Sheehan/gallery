@@ -27,6 +27,7 @@ form.chat .myMessage:after {
   transform: translate(-30px, -2px);
 }
 ```
+&nbsp;
 
 Now that I had that in place, I just needed to lay out the messages as if they were on a phone screen.
 
@@ -46,5 +47,7 @@ function responsiveChatPush(element, sender, origin, date, message) {
     $(element + ' .messages').append('<div class="message"><div class="' + originClass + '"><p>' + message + '</p><date><b>' + sender + '</b> ' + date + '</date></div></div>');
 }
 ```
+
+&nbsp;
 
 You can see the live version of it now [here](http://ryanwsheehan.com/about/).
