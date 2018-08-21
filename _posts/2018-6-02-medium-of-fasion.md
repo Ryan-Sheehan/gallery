@@ -17,7 +17,7 @@ The idea with this one was to create a box that looked the same from no matter w
 
 {% include image.html path="medium-of-fashion/002.png" path-detail="medium-of-fashion/002.png" alt="" %}
 
-I really enjoy using gradients when it makes sense to but generally I associated them with digital works so I wanted to try and combine a gradient with some organic material. After filling my pack up with as many green apples as I could sneak out of the dining hall that night, I mixed some paints and ended up with this. This is the best picture that remains of this one unfortunately, this project has long since rotted.
+I really enjoy using gradients when it makes sense to but generally I associate them with digital works so I wanted to try and combine a gradient with some organic material. After filling my pack up with as many green apples as I could sneak out of the dining hall that night, I mixed some paints and ended up with this. This is the best picture that remains of this one unfortunately, this project has long since rotted.
 
 ## Prompt 3: 
 ##### Transformation: Take a material and use it to make something while disregarding its usual intention.
