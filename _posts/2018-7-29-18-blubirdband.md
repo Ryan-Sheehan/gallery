@@ -9,7 +9,7 @@ A friend of mine from home (Philadelphia) is in an indie band named Blubird and 
 
 {% include image.html path="blubird/001.png" path-detail="blubird/001.png" alt="" %}
 
-The main navigation tool for the desktop version of the site is this big svg ribbon that kind of snakes around the page as the user goes between different sections. There's a fair amount of trigonometry involved so I'll save you the Algebra 2 lesson and just say that it wouldn't have been possible without. [Snap.svg](http://snapsvg.io/), a framework for working with SVGs.
+The main navigation tool for the desktop version of the site is this big svg ribbon that kind of snakes around the page as the user goes between different sections. There's a fair amount of trigonometry involved so I'll save you the Algebra 2 lesson and just say that it wouldn't have been possible without [Snap.svg](http://snapsvg.io/), a framework for working with SVGs.
 
 Since I knew the ribbon wasn't going to work as well for mobile, I opted for a more simplistic menu button. However, I still wanted something unique for the landing page so I tried implementing a kind of hacksaw version of a feature that had really stood out to me earlier on [Warby Parker's](https://www.warbyparker.com/) mobile store. When looking at a pair of glasses, if the user tilts their phone, the model's head will tilt accordingly so that different perspectives of the glasses are available. But since I didn't have any glasses to show off, I instead used a character from Blubird's lore, Gooseman to attempt this:
 
