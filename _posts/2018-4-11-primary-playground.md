@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Lewkk x Mondrian"
-description: "The fruits of crafts center"
+description: "Primary playground"
 tags: [photography]
 ---
 
-Painted a Mondrian on an old jean jacket for my fashion class and there was a primary colored playground next to my dorm so you know we had to take advantage.
+Painted a Mondrian on an old jean jacket for my fashion class and there was a primary colored playground next to my dorm so you know we had to take advantage. These photos were also featured on a Tufts-centered fashion blog, The [Lewkk](https://www.instagram.com/the_lewkk/).
 
 {% include image.html path="primary-playground/0003.jpg" path-detail="primary-playground/0003.jpg" alt="" %}
 
