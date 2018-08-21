@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'About Me' V2"
+title: "'About Me' v2."
 description: "Your message has been delivered"
 tags: [web design]
 ---
