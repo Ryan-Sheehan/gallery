@@ -23,6 +23,8 @@ The first cluster of keys chose a chord and then the subsequent clusters each mo
 
 The instruction once inputted was then displayed to the musicians whose job it was to vamp on it. They ended up doing this for about 3 hours straight.
 
+I had a decent amount of leftover footage afterwards that I wanted to do something with but wasn't sure exactly what so I made the video below if you want to see the music machine live and in action.
+
 <div class="embed-responsive embed-responsive-16by9">
   <iframe src="https://www.youtube.com/embed/eKmMOseAHCc" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
 </div>
