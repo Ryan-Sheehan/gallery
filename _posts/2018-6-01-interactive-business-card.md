@@ -11,4 +11,4 @@ tags: [web design]
 
 {% include image.html path="interactive-business-card/002.png" path-detail="interactive-business-card/002.png" alt="" %}
 
-The live demo can be found [here](http://ryanwsheehan.com/interactive_business_card/).
+The live demo can be found [here](http://ryanwsheehan.com/interactive-business-card/).
