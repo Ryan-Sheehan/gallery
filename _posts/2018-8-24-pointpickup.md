@@ -10,7 +10,7 @@ Over this past summer, I worked as a full-stack engineer at a Greenwich-based st
 
 During my time at the actual office, my major project was to involve taking 20 or so wireframes outlining the new website design and implementing them.
 
-As I came closer to finishing most of these, I knew I wasn't the biggest fan of the current landing page design so I went and got permission to draft up some ideas of my own. This is what the proposed page looked like:
+As I came closer to finishing most of these, I knew I wasn't the biggest fan of the current landing page design so I went and got permission to draft up some ideas of my own. This is what the currently proposed page looked like:
 
 {% include image.html path="pointpickup/current-design.png" path-detail="pointpickup/current-design.png" alt="" %}
 
