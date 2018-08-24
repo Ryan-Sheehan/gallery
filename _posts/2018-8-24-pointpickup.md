@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Pointpickup.com"
+title: "Point Pickup"
 description: "Summer Internship 2k18"
 tags: [web design, photoshop, databases]
 ---
 
 
-Over this past summer, I worked as a full-stack engineer at a Greenwich-based startup named Point Pickup. Point Pickup is an Uber-like service primarily concerning itself with package deliveries and it does a good share of its business with major retailers like Target and Walmart to handle deliveries originating from their stores.
+Over this past summer, I worked as a full-stack engineer at a Greenwich-based startup named [Point Pickup](http://pointpickup.com/). Point Pickup is an Uber-like service primarily concerning itself with package deliveries and it does a good share of its business with major retailers like Target and Walmart to handle deliveries originating from their stores.
 
 During my time at the actual office, my major project was to involve taking 20 or so wireframes outlining the new website design and implementing them.
 
