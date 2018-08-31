@@ -5,7 +5,7 @@ description: "Creative Confidence"
 tags: [product design]
 ---
 
-by Olivia Hewitt
+by Olivia Hewitt and Ananya Ram
 
 Tufts Design for Social Good is a club that brings students from the School of Engineering and the School of Arts & Sciences together in an effort to bring positive impact to our local community. Each year, Tufts DSG will select a marginalized or under-designed-for group, find a group of users in our community, and design a solution to a problem we identify in their life. To do so, all DSG members learn a useful problem-solving process called Design Thinking, which is a cyclical process of interviews, synthesis, prototyping, and iterating. At the end of this process, we hope to create a solution of real value to our users. 
 
