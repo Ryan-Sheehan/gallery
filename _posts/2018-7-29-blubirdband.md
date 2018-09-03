@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blubird.com"
+title: "Blubirdband.com"
 description: "Commission for Griswald"
 tags: [web design, svg, music]
 ---
