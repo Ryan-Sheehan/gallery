@@ -2,6 +2,6 @@
 
 WebFont.load({
   google: {
-    families: ['Cormorant Garamond:700', 'Archivo Black']
+    families: ['Cormorant Garamond:700', 'Archivo Black', 'Lato']
   }
 });

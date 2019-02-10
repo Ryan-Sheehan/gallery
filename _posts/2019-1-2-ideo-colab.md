@@ -11,6 +11,8 @@ This was the prompt my 4 person team was asked to think about during our week lo
 
 What we ended up with was a tool called Omiiko (which means empathy in Igbo). Omiiko uses multiple AI systems to create a reliable soft-skills profile, which can be used by workers to market their skills, and by employers to find the right cultural match for their jobs.
 
+{% include image.html path="omiiko/002.jpg" path-detail="omiiko/002.jpg" alt="" %}
+
 {% include image.html path="omiiko/001.jpg" path-detail="omiiko/001.jpg" alt="" %}
 
 
@@ -33,7 +35,7 @@ Among other things, what we learned from developing this tool is that employers 
 
 While working with these technologies, one of the issues we had most difficulty reconciling were the biases that had been pre-baked into the models we were leveraging to analyze individuals. An individual or team is initially responsible for determining what a model defines as 'agreeableness' or 'conscientiousness'. This subjective definition is almost impossible to fully agree upon person to person, so the designers of the systems may now have far more power in inadvertently deciding which soft skills are perceived in what way. Furthermore, the recruiter/hiring manager would now be responsible for reporting if they felt the systems analysis of the individual was accurate, thereby infusing their own biases into the model when it runs next.
 
-{% include image.html path="omiiko/002.jpg" path-detail="omiiko/002.jpg" alt="" %}
+
 
 {% include image.html path="omiiko/003.jpg" path-detail="omiiko/003.jpg" alt="" %}
 
