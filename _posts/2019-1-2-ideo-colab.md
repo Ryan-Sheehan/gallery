@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Omiiko for IDEO CoLab"
-description: "Winter Fellowship"
+description: "Winter Fellowship at IDEO Cambridge"
 tags: [AI, human centered design]
 ---
 
