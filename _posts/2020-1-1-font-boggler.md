@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FONT BOGGLER [WIP]"
-description: "That's exactly right"
+description: "ooOoOoOOOOOoooOOoooooooOOOOOOoOoooOo"
 tags: [web design, typography]
 ---
 
