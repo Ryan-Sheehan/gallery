@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stickers for the Bored"
+title: "Stickers For The Bored"
 description: "You can't buy toast"
 tags: [web design]
 ---
