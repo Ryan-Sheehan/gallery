@@ -15,4 +15,4 @@ Introducing: Bad Wearable Tech
 
 Using a React/Redux store, Moltin as a database and Firebase for hosting, this may just be my most complicated waste of time yet.
 
-[Enjoy](https://bad-wearable-tech.firebaseapp.com/).
+You can check it out at [https://bad-wearable-tech.firebaseapp.com/](https://bad-wearable-tech.firebaseapp.com/).
