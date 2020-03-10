@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>RYAN SHEEHAN</title>
+    <description></description>
+    <link>http://ryanwsheehan.com</link>
+    <atom:link href="http://ryanwsheehan.com/projects/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>FONT BOGGLER [WIP]</title>
+        <description>ooOoOoOOOOOoooOOoooooooOOOOOOoOoooOo</description>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/font-boggler</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/font-boggler</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>IKEA Web Experiment</title>
+        <description>Skadis</description>
+        <pubDate>Tue, 31 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/ikea</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/ikea</guid>
+      </item>
+    
+      <item>
+        <title>Assorted Things I've Made Recently</title>
+        <description>Stack overflowing</description>
+        <pubDate>Mon, 30 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/assorted</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/assorted</guid>
+      </item>
+    
+      <item>
+        <title>Beating the Google Chrome Easter Egg</title>
+        <description>AI doesn't need wifi</description>
+        <pubDate>Sun, 29 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/chrome</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/chrome</guid>
+      </item>
+    
+      <item>
+        <title>A Bunch of Illustrations I did for IDEO</title>
+        <description>Thank you, Richard Feynman</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/quantum</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/quantum</guid>
+      </item>
+    
+      <item>
+        <title>T86: Late Night</title>
+        <description>Let's eat some bahn mi</description>
+        <pubDate>Sun, 18 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/t86-late-night</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/t86-late-night</guid>
+      </item>
+    
+      <item>
+        <title>Paint 107</title>
+        <description>Nothing to something</description>
+        <pubDate>Sun, 21 Jul 2019 00:00:00 -0400</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/paint107</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/paint107</guid>
+      </item>
+    
+      <item>
+        <title>Blackmath Site Redesign</title>
+        <description>Horizontal scrolling is good</description>
+        <pubDate>Sat, 20 Jul 2019 00:00:00 -0400</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/blackmath</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/blackmath</guid>
+      </item>
+    
+      <item>
+        <title>'About Me' v2.</title>
+        <description>Your message has been delivered</description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/new-about-me</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/new-about-me</guid>
+      </item>
+    
+      <item>
+        <title>Bad Wearable Tech</title>
+        <description>https://bad-wearable-tech.firebaseapp.com/</description>
+        <pubDate>Tue, 22 Jan 2019 00:00:00 -0500</pubDate>
+        <link>http://ryanwsheehan.com/projects/posts/bad-wearable-tech</link>
+        <guid isPermaLink="true">http://ryanwsheehan.com/projects/posts/bad-wearable-tech</guid>
+      </item>
+    
   </channel>
 </rss>

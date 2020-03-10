@@ -1,40 +1,653 @@
----
-layout: default
-title: "Tags"
-description: "Tag cloud from all the posts"
-permalink: /tags
-sitemap: false
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RYAN SHEEHAN | Tags</title>
+  <meta name="description" content="Tag cloud from all the posts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="tags-page">
+  <meta property="og:title" content="Tags">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://ryanwsheehan.com/projects/tags">
+  <meta property="og:description" content="Tag cloud from all the posts">
+  <meta property="og:site_name" content="RYAN SHEEHAN">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://ryanwsheehan.com/projects/tags">
+  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:description" content="Tag cloud from all the posts">
+
+  
+    <meta property="og:image" content="http://ryanwsheehan.com/projects/assets/og-image-771d0d537efee3131d55ea55fb9a8032f76c693cc159afe0704444e3244ec833.jpg">
+    <meta name="twitter:image" content="http://ryanwsheehan.com/projects/assets/og-image-771d0d537efee3131d55ea55fb9a8032f76c693cc159afe0704444e3244ec833.jpg">
+  
+
+  <link href="http://ryanwsheehan.com/projects/feed.xml" type="application/rss+xml" rel="alternate" title="RYAN SHEEHAN Last 10 blog posts" />
+
+  
+    <link rel="stylesheet" type="text/css" href="/projects/assets/fonts-0908fac1c22c89d9ce0a6acafe9482e2134ec4ed0155ab47e2abdede7d36bd95.css">
+  
+
+  
+    <link rel="icon" type="image/x-icon" href="/projects/assets/favicon-ef713aec638f3e0f81f21a851e36f2d723034e7b6979b60ef27176e5f08d1b79.ico">
+    <link rel="apple-touch-icon" href="/projects/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+    <link rel="stylesheet" type="text/css" href="/projects/assets/light-f94901f3dd5cdc9349585fe13f97bd2a4bbb978496a86ef4f7f524f37b0887b1.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="http://ryanwsheehan.com/" class="header-logo" title="RYAN SHEEHAN">RYAN SHEEHAN</a>
+  <ul class="header-links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/ryanwsheehan/" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/projects/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/projects/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://instagram.com/ryan__sheehan/" rel="noreferrer noopener" target="_blank" title="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-instagram">
+  <use href="/projects/assets/instagram-37f85bc75b43ecc4c114d9a46f846327fe13c5893787c6afbcfef9d30d58bd9e.svg#icon-instagram" xlink:href="/projects/assets/instagram-37f85bc75b43ecc4c114d9a46f846327fe13c5893787c6afbcfef9d30d58bd9e.svg#icon-instagram"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="https://play.spotify.com/user/12136211612?si=NhPTdY0UTEe1tHRNnIEYqg" rel="noreferrer noopener" target="_blank" title="Spotify">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-spotify">
+  <use href="/projects/assets/spotify-e5b8d68b83f4ca44a4a6dfbe2240ea050cb4d2fd38c1628be02cf2f61abe19f6.svg#icon-spotify" xlink:href="/projects/assets/spotify-e5b8d68b83f4ca44a4a6dfbe2240ea050cb4d2fd38c1628be02cf2f61abe19f6.svg#icon-spotify"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/projects/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/projects/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/projects/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <div class="tags-page">
   <h1 class="tags-page-header">
     Tags
   </h1>
 
-  {% assign my_tags = site.collections | where: "label", "my_tags" | first %}
+  
 
-  {% assign sorted_tags = site.tags | sort %}
+  
 
-  {% for tag in sorted_tags %}
+  
 
-    {% assign tag_slug = tag | first %}
-    {% assign upcase_tag_slug = tag_slug | upcase %}
-    {% assign no_of_posts = tag | last | size %}
+    
+    
+    
 
-      {% for my_tag in my_tags.docs %}
-        {% if tag_slug == my_tag.slug %}
-          {% assign tag_name = my_tag.name %}
-        {% endif %}
-      {% endfor %}
-      {% assign upcase_tag_name = tag_name | upcase %}
+      
+      
 
-    {% if upcase_tag_slug != "PROJECT" %}
+    
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="{{ 'tag/' | relative_url }}{{ tag_slug }}" title="See all posts by {{ upcase_tag_name }} tag"
-      style="font-size: {{ no_of_posts  |  times: 15 | plus: 120  }}%">
-        <span>{{ upcase_tag_name }}<small>({{ no_of_posts }})</small></span>
+      <a class="tag-cloud" href="/projects/tag/AI" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
       </a>
-    {% endif %}
+    
 
-  {% endfor %}
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/AR" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/Illustrator" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/Logos" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/UI" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/animation" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/artificial intelligence" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/audio engineering" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/c++" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/clothing" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/databases" title="See all posts by  tag"
+      style="font-size: 135%">
+        <span><small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/design" title="See all posts by DESIGN tag"
+      style="font-size: 165%">
+        <span>DESIGN<small>(3)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/environment design" title="See all posts by DESIGN tag"
+      style="font-size: 150%">
+        <span>DESIGN<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/food" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/graphic design" title="See all posts by DESIGN tag"
+      style="font-size: 165%">
+        <span>DESIGN<small>(3)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/human centered design" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/illustration" title="See all posts by DESIGN tag"
+      style="font-size: 150%">
+        <span>DESIGN<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/music" title="See all posts by DESIGN tag"
+      style="font-size: 165%">
+        <span>DESIGN<small>(3)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/p5" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/parody" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/photography" title="See all posts by DESIGN tag"
+      style="font-size: 150%">
+        <span>DESIGN<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/photoshop" title="See all posts by DESIGN tag"
+      style="font-size: 165%">
+        <span>DESIGN<small>(3)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/product design" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/quantum computing" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/svg" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/t86" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/typography" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/video production" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/web design" title="See all posts by DESIGN tag"
+      style="font-size: 330%">
+        <span>DESIGN<small>(14)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+      
+      
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/projects/tag/writing" title="See all posts by DESIGN tag"
+      style="font-size: 135%">
+        <span>DESIGN<small>(1)</small></span>
+      </a>
+    
+
+  
 </div>
+
+        <footer class="footer scrollappear">
+  <p>
+	&copy; Ryan Sheehan 2018 
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+
+<script src="/projects/assets/vendor-2c224c53eb697c739f9490c38819a72184f09472739fd9e492272ef174090428.js" type="text/javascript"></script>
+
+
+
+
+  <script src="/projects/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/projects/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+</body>
+</html>
